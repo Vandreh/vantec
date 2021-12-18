@@ -18,12 +18,14 @@ rails g devise:views
 rails g devise User
 rake db:migrate
 
+git add .
+git commit -m "First commit"
+git push
 
 
-
-
-
-
+heroku login
+heroku git:remote -a vantec
+git push heroku master
 
 
 
