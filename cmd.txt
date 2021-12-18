@@ -26,8 +26,9 @@ git push
 heroku login
 heroku git:remote -a vantec
 git push heroku master
-
-
+git add .
+git commit -m "Add Procfile"
+git push
 
 
 
