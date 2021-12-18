@@ -1,0 +1,36 @@
+rails new vantec -d postgresql
+cd vantec
+rake db:create
+rails g scaffold Product product_name:string type_product:string product_price:decimal code:string points:integer status:string
+rake db:migrate
+rails routes
+
+# rails g controller welcome index about contact faqs pricing features
+
+https://github.com/twbs/bootstrap-sass#a-ruby-on-rails
+bundle install
+mv app/assets/stylesheets/application.css app/assets/stylesheets/application.css.scss
+
+How to Install and Configure Devise in a Ruby on Rails Application - https://www.youtube.com/watch?v=YnGuALpJN1M&list=PLgYiyoyNPrv-j6vFyXP8mgRyvpRqFkjb8&index=15
+bundle install
+rails g devise:install
+rails g devise:views
+rails g devise User
+rake db:migrate
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
